@@ -18,8 +18,8 @@ while current_savings < down_payment:
 
 print("It will take you " + str(months) + " months to save enough for your down payment.")
 
-# Took me a long time to conceptualize the counting aspect... i.e. how does months += 1 actually work to count the months?
-# What happens when I type Python3 in the terminal? I can't easily get back to my repository? i.e. can't Python3 the file
+
+
 
 
 
