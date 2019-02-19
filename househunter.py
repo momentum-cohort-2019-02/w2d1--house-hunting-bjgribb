@@ -4,9 +4,9 @@ total_cost = float(input("How much does your dream home cost? "))
 annual_salary = float(input("What is your annual salary? "))
 portion_saved = float(input("What portion of your annual salary are you saving? (as a decimal) "))
 r = float(input("What is your annualized savings rate? (as a decimal) "))
+down_payment = total_cost * float(input("What percentage (as a decimal) would you like for you down payment? "))
 
 current_savings = 0
-down_payment = total_cost * 0.25
 months = 0
 
 while current_savings < down_payment:
